@@ -1,0 +1,25 @@
+{
+  "publicadores":[
+    {
+      "id":1,
+      "nombre":"Iglesia"
+    }
+  ],
+  "topicos": [
+    {
+      "publicador": "1",
+      "topico": "Adolescentes",
+      "Descripcion": "Adolescentes pertenecientes a la iglesia con edades entre 11-15 años.",
+    },
+    {
+      "publicador": "1",
+      "topico": "Juvenil",
+      "Descripcion": "Jóvenes pertenecientes a la iglesia con edades entre 16-24 años."
+    },
+    {
+      "publicador": "1",
+      "topico": "Profesionales",
+      "Descripcion": "Jóvenes solteros profesionales pertenecientes a la iglesia mayores de 25 años."
+    }
+  ]
+}

@@ -1,25 +1,59 @@
 {
-  "publicadores":[
+  "publicadores": [
     {
-      "id":1,
-      "nombre":"Iglesia"
+      "cod": "AGAPE",
+      "nombre": "Ágape",
+      "descripcion":"Aplicación móvil de suscripción a notificaciones de eventos cristianos.",
+      "telefono":"777777",
+      "correoElectronico":"hola@agape.com",
+      "paginaWeb":"www.agape.com",
+      "ultimaActualizacion":"202006012359"
     }
   ],
-  "topicos": [
+  "programas": [
     {
-      "publicador": "1",
-      "topico": "Adolescentes",
-      "Descripcion": "Adolescentes pertenecientes a la iglesia con edades entre 11-15 años."
+      "publicadorCod":"AGAPE",
+      "cod": "AMOR",
+      "nombre": "Amor Ágape",
+      "Descripcion": "Un amor divino."
+    }
+  ],
+    "redes": [
+    {
+      "publicadorCod":"AGAPE",
+      "red": "FACEBOOK",
+      "perfil": "Ágape - App Móvil",
+      "url":"https://www.facebook.com"
     },
     {
-      "publicador": "1",
-      "topico": "Juvenil",
-      "Descripcion": "Jóvenes pertenecientes a la iglesia con edades entre 16-24 años."
-    },
+      "publicadorCod":"AGAPE",
+      "red": "YOUTUBE",
+      "perfil": "Ágape - App Móvil",
+      "url":"https://www.youtube.com"
+    }
+  ],
+    "localidades": [
     {
-      "publicador": "1",
-      "topico": "Profesionales",
-      "Descripcion": "Jóvenes solteros profesionales pertenecientes a la iglesia mayores de 25 años."
+      "publicadorCod":"AGAPE",
+      "nombreClave": "Sede",
+      "ciudad": "Managua",
+      "sector":"Capital",
+      "direccion":"Metrocentro",
+      "latitud":12.128446,
+      "longitud":-86.264673
+    }
+  ],
+  "eventos": [
+    {
+      "publicadorCod": "AGAPE",
+      "programaCod":"AMOR",
+      "cod": "2006012359",
+      "nombre":"Juan 3, 16",
+      "descripcion":"De tal manero amó al mundo...",
+      "fecha": "2020-06-07",
+      "hora":"20:00",
+      "eventoUrl":"",
+      "imagenUrl":""
     }
   ]
 }

@@ -5,9 +5,9 @@
       "nombre": "Ágape",
       "descripcion":"Aplicación móvil de suscripción a notificaciones de eventos cristianos.",
       "telefono":"777777",
-      "correoElectronico":"hola@agape.com",
+      "correoElectronico":"amor@agape.com",
       "paginaWeb":"www.agape.com",
-      "ultimaActualizacion":"202006012359"
+      "ultimaActualizacion":2006012359
     }
   ],
   "programas": [
@@ -15,7 +15,7 @@
       "publicadorCod":"AGAPE",
       "cod": "AMOR",
       "nombre": "Amor Ágape",
-      "Descripcion": "Un amor divino."
+      "descripcion": "Un amor divino."
     }
   ],
     "redes": [
@@ -35,7 +35,7 @@
     "localidades": [
     {
       "publicadorCod":"AGAPE",
-      "nombreClave": "Sede",
+      "nombre": "Sede",
       "ciudad": "Managua",
       "sector":"Capital",
       "direccion":"Metrocentro",
@@ -45,11 +45,11 @@
   ],
   "eventos": [
     {
+      "id": 2006012359,
       "publicadorCod": "AGAPE",
       "programaCod":"AMOR",
-      "cod": "2006012359",
       "nombre":"Juan 3, 16",
-      "descripcion":"De tal manero amó al mundo...",
+      "descripcion":"Él nos amó primero...",
       "fecha": "2020-06-07",
       "hora":"20:00",
       "eventoUrl":"",
